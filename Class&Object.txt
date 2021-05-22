@@ -1,0 +1,33 @@
+package practice;
+
+class objNobu //Class
+{
+    int num1,num2,result;
+    
+	public objNobu() //Constructor
+	{
+		num1 = 5;
+		num2 = 10;
+		result = num1*num2;
+		System.out.println("The Multiplication is: " +result);
+	}
+	public objNobu(int k) 
+	{
+	    num1 = k;
+	    num2 = k;
+		result = num1*num2;
+		System.out.println("The new Multiplication is: " +result);
+	}
+}
+public class Obj {
+
+	public static void main(String[] args) {
+		
+		objNobu obj = new objNobu(20);  //Calling the Constructor + Creating an object
+		
+				
+		System.out.println(obj.num1);
+
+	}
+
+}
